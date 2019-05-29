@@ -1,0 +1,25 @@
+<meta
+    name="google-signin-client_id"
+    content="343955122104-krc5s4j22fmd2tharimhftjg1fpch6c9.apps.googleusercontent.com"
+/>
+
+<script src="https://apis.google.com/js/platform.js?onload=onLoad" async defer></script>
+
+<div
+    id="google-signin-button"
+    class="g-signin2"
+    data-width="170"
+    data-height="30"
+    data-onsuccess="onSignIn"
+    data-onfailure="onSignInFailure"
+></div>
+<div style="height: 30px"></div>
+<div id="response"></div>
+
+<script>
+    function onSignIn(googleUser) {
+        var profile = googleUser.getBasicProfile();
+        var idToken = googleUser.getAuthResponse().id_token;
+        document.getElementById('response').innerHTML = 'idToken = ' + idToken;
+    }
+</script>

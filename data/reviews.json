@@ -1,0 +1,14 @@
+[
+    {
+        "tourID": "id-0",
+        "reviewTitle": "Great value for money",
+        "reviewLongText": "This is one of the best experiences I have had in Paris, great price and great tour!",
+        "stars": 5
+    },
+    {
+        "tourID": "id-0",
+        "reviewTitle": "Paris is beautiful in the evening",
+        "reviewLongText": "This was a nice tour! However, the Audio Guide didn't work.",
+        "stars": 4
+    }
+]

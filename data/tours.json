@@ -1,0 +1,24 @@
+[
+    {
+        "id": "id-0",
+        "location": "Paris",
+        "tourTitle": "Paris 1-Hour Night Cruise",
+        "tourCategory": "Sailing and Water Tours",
+        "tourDescription": "Take a night cruise of the River Seine and see Paris illuminated for the night.",
+        "price": 20,
+        "currency": "EUR",
+        "img": ["paris-img.jpg"],
+        "reviews": []
+    },
+    {
+        "id": "id-1",
+        "location": "New York",
+        "tourTitle": "Private City Walking Tour",
+        "tourCategory": "Sightseeing",
+        "tourDescription": "Get to know New York City on a 4- or 8-hour walking tour with a private guide",
+        "price": 190,
+        "currency": "USD",
+        "img": ["ny-img.jpg"],
+        "reviews": []
+    }
+]
